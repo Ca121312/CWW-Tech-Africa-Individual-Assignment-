@@ -1,12 +1,32 @@
-# Exercise number 1
+#write a python function that takes two parameters (a and b) and returns their sum. Test the function with different input values.
 
+# Exercise number 1
 x=5
 y=10
 print(x+y)
-15
 
-# Exercise number 4
-nums=[23,23,45,67]
-average=sum(nums)/len(nums)
-print("average of list: ", round(average,3))
-average of list:  39.5
+#Create a python function that calculates the factorial of a given number. Allow the user to input the number and display the result
+n=int(input("Enter: "))
+Enter: 23
+factorial=1
+if n>=1:
+    for i in range (1, n+1):
+        factorial =factorial*1
+        print("Factorial of the given numer is: ", factorial)
+
+# implement a function that checks whether a given number is prime or not. Test the function with various numbers to demonstrate its accuracy.
+    n=5
+    if n>1:
+        for i in range (2, int(n/2)+1):
+            if (n%i)==0:
+                print(num, "is not a prime number")
+                break
+            else:
+                print(n, "is a prime number")
+            
+#develop a function that accepts a list of numbers and returns the average. Test the function with a sample list of numbers.
+nums=[45, 27, 39, 78, 4]
+average = sum(nums)/len(nums)
+print(“average of list: “, round(average,3))
+
+
