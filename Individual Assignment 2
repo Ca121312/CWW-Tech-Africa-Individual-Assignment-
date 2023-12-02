@@ -1,42 +1,12 @@
-#write a python function that takes two parameters (a and b) and returns their sum. Test the function with different input values.
+# Exercise number 1
 
-def add_two_num(a,b):
-sum=a+b;
-return sum;
-num1=int(input(“input the first number : “))
-num2=int(input(“input the second number : “))
-print(“The sum of given two numbers is”, add_two_num(num1,num2))
+x=5
+y=10
+print(x+y)
+15
 
-def add_two_num(a,b):
-sum=float(a)+float(b);
-return sum;
-num1=int(input(“input the first number : “))
-num2=int(input(“input the second number : “))
-print(“The sum of given two numbers is”, add_two_num(num1,num2))
-
-#Create a python function that calculates the factorial of a given number. Allow the user to input the number and display the result
-N=int (input(“Enter a number: “))
-Factorial = 1
-If n> 1
-For i in range (1, n+1): 
-Factorial = factorial*i
-Print (“factorial of the given number is: “, factorial)
-
-
-# implement a function that checks whether a given number is prime or not. Test the function with various numbers to demonstrate its accuracy.
-
-num = int(input(“Enter the number: “))
-if num > 1:
-#check for factors for i in range (2, num):
-If (num%i)==0:
-Print (num, “is not a prime number”)
-Print(i, “times”, num//I, “is “, num)
-break
-else:
-print(num, “is not a prime number”)
-#develop a function that accepts a list of numbers and returns the average. Test the function with a sample list of numbers.
-nums=[45, 27, 39, 78, 4]
-average = sum(nums)/len(nums)
-print(“average of list: “, round(average,3))
-
-
+# Exercise number 4
+nums=[23,23,45,67]
+average=sum(nums)/len(nums)
+print("average of list: ", round(average,3))
+average of list:  39.5
