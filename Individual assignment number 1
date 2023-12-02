@@ -1,0 +1,144 @@
+
+# Exercise number 1 Assign the value 10 to a variable x and print it
+x= 10
+print (x)
+
+# Assign the value "Hello" to a variable message and print it
+y='Hello'
+print (y)
+
+# Create a variable and assign it a value
+z= 20
+print(z)
+
+# print the type of the variable
+
+z=20
+print(type(z)) #<class 'int'>
+
+
+
+#------------------------
+# Exercise number 2 Data types Create a variable of each of the following data types: integer, float, string, or boolean
+
+x = 90
+print(type(x)) # <class 'int'>
+
+x = 1.23
+print(type(x)) # <class 'float'>
+
+x = 'Learning python is awesome'
+print(type(x))  #<class 'str'>
+
+x=True
+print(type(x)) #<class 'bool'>
+
+#---------------------------
+# Exercise number 3 Sets Create a set of numbers from 1 to 10
+n=10
+nums= set(range(n))
+print(nums)
+
+#add the number 11 to the set
+setY={1,2,3,4,5,6,7,8,9,10}
+setY.add(11)
+print(setY)
+# remove the number 5 from the set
+setY={1,2,3,4,5,6,7,8,9,10}
+setY.remove(11)
+print(setY)
+
+# Check if the number 3 is in the list set
+n=set([1,2,3,4,5,6,7,8,9,10]
+i=3
+# if element is in the list then return
+# exist otherwise not exist
+
+if i in list:
+print"is in the list")
+else:
+print("not in the list")
+
+
+
+# print the size of the set
+n=len({1,2,3,4,5,6,7,8,9,10})
+print("The length of set is: " , n)
+
+
+
+
+# ----------------------
+# Exercise number 4 Create a list of the numbers from 1 to 10
+
+nums =range(1,10)
+print(list(nums))
+print(list(map(str, nums)))
+
+
+
+# ----------------------
+# add the number 11 to the list
+# take n value as 11
+
+n = 11
+#take an empty list to store the generated sequence
+output = []
+#generate the sequence of numbers from 1 to n
+
+for i in range (1, n+1):
+output.append(i)
+print(output)
+
+
+# ----------------------
+# Remove the number 5 from the list
+
+nums=range(1,10)
+nums.remove(5) print('New List: ', nums)
+
+#output: New List: [1,2,3,4,6,7,8,9]
+
+# -----------------------
+# check if the number 3 is in the list
+
+list = [1,2,3,4,5,6,7,8,9,10]
+# Checking if element 3 is present in the given list or not
+i=3
+# if element is in the list then return
+# exist otherwise not exist
+
+if i in list:
+print"is in the list")
+else:
+print("not in the list")
+
+
+# ------------------
+# remove the first element from the list
+
+nums=range(1,10)
+nums.remove(1)
+print('New List: ', nums)
+
+#output: New List: [2,3,4,6,7, 8,9]
+
+
+# --------------------
+# print the size of the list
+
+#list from 1 to 10
+nums=[1,2,3,4,5,6,7,8,9,10]
+#identify the sixe of the above list
+size=sum (1 for num in nums)
+#print the size of the list
+print (size)
+
+#--------------------
+# reverse the order of the list 
+# present the list to be reverted
+nums=[1,2,3,4,5,6,7,8,9,10]
+#reverse the order of list elements
+nums.reverse()
+print('Reversed list:', nums)
+
